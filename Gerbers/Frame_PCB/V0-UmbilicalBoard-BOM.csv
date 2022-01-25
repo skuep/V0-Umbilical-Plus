@@ -1,0 +1,15 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical";1;"Conn_02x10_Top_Bottom";;;
+2;"TH1";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"Thermistor";;;
+3;"J3";"JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical";1;"Hotend Fan";;;
+4;"J4";"JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical";1;"Part Cooling Fan";;;
+5;"J6";"JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical";1;"Thermistor";;;
+6;"J7";"JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical";1;"X-Endstop";;;
+7;"J8";"JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical";1;"Chamber Thermistor";;;
+8;"J2";"JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical";1;"Motor";;;
+9;"J5";"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal";1;"Heater";;;
+10;"J9";"JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical";1;"Neopixel (from controller)";;;
+11;"J10,J11";"JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical";2;"Neopixel Strip 1";;;
+12;"C1,C2,C3";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";3;"C";;;
+13;"J12";"JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical";1;"Neopixel Out";;;
+14;"J13";"JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical";1;"Accelerometer";;;

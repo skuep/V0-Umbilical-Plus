@@ -1,0 +1,18 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","C","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",-139.600000,-97.362500,90.000000,bottom
+"C2","C","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",-132.162500,-95.000000,180.000000,bottom
+"C3","C","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",-60.000000,-101.000000,-90.000000,bottom
+"J2","Motor","JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",-127.000000,-108.890000,180.000000,bottom
+"J3","Hotend Fan","JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",-74.500000,-91.110000,180.000000,bottom
+"J4","Part Cooling Fan","JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",-84.000000,-91.110000,180.000000,bottom
+"J5","Heater","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",-77.420000,-109.000000,0.000000,bottom
+"J6","Thermistor","JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",-65.000000,-91.110000,180.000000,bottom
+"J7","X-Endstop","JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",-122.500000,-90.000000,180.000000,bottom
+"J8","Chamber Thermistor","JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",-136.500000,-109.000000,180.000000,bottom
+"J9","Neopixel (from controller)","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",-136.000000,-90.000000,180.000000,bottom
+"J10","Neopixel Strip 1","JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",-145.000000,-103.750000,90.000000,bottom
+"J11","Neopixel Strip 1","JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",-55.000000,-96.250000,-90.000000,bottom
+"J12","Neopixel Out","JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",-69.928000,-108.890000,180.000000,bottom
+"J13","Accelerometer","JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",-132.500000,-99.000000,180.000000,bottom
+"J1","Conn_02x10_Top_Bottom","Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical",113.500000,-101.500000,180.000000,top
+"TH1","Thermistor","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",100.000000,-112.700000,0.000000,top
