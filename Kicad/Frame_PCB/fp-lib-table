@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "V0-UmbilicalBoard")(type "KiCad")(uri "${KIPRJMOD}/Library/V0-UmbilicalBoard.pretty")(options "")(descr ""))
+)

@@ -1341,7 +1341,7 @@
     (uuid b57ff189-3eae-4dfe-9050-48699ec7dcd8)
     (property "Reference" "J1" (id 0) (at 116.84 52.07 0))
     (property "Value" "Conn_02x10_Top_Bottom" (id 1) (at 116.84 54.61 0))
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical" (id 2) (at 115.57 68.58 0)
+    (property "Footprint" "V0-UmbilicalBoard:Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical" (id 2) (at 115.57 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 115.57 68.58 0)
@@ -1393,7 +1393,7 @@
       (reference "C3") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/b57ff189-3eae-4dfe-9050-48699ec7dcd8"
-      (reference "J1") (unit 1) (value "Conn_02x10_Top_Bottom") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_02x10_Top_Bottom") (footprint "V0-UmbilicalBoard:Molex_Micro-Fit_3.0_43045-2012_2x10_P3.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000607f8393"
       (reference "J2") (unit 1) (value "Motor") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
