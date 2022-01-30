@@ -1,5 +1,5 @@
 # Note that this Repo is the 'Plus' Version of the original V0-Umbilical
-The original version was created by GitHub user timmit99 and can be found in the parent folder in this repository.
+The original version was created by GitHub user timmit99 and can be found in the official Voron-Hardware repository.
 
 The 'Plus' version of the V0-Umbilical features an integrated ADXL345 Accelerometer that can be used for Input Shaper Tuning.
 The Molex MicroFit connector was changed from a 14-pin to 20-pin version to acommodate the additional wires for the ADXL345.
