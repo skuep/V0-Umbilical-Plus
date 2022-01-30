@@ -6,7 +6,7 @@ The Molex MicroFit connector was changed from a 14-pin to 20-pin version to acom
 
 In the following, the changes to the original README from timmit99 is given. Please read the README in the original project first.
 
-![Toolhead PCB with ADXL345 Accelerometer](/V0-Umbilical-Plus/Images/Toolhead-PCB-2.png?raw=true "Title")
+![Toolhead PCB with ADXL345 Accelerometer](/Images/Toolhead-PCB-2.png?raw=true "Title")
 
 ### Frame PCB BOM
 | Part      | Quantity | Notes | LCSC Part Number | Link |
