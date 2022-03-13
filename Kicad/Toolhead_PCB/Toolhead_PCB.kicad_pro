@@ -386,8 +386,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "Toolhead_PCB.step",
+      "vrml": "Toolhead_PCB.wrl"
     },
     "page_layout_descr_file": ""
   },
