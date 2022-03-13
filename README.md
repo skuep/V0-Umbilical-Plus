@@ -56,3 +56,34 @@ The Umbilical cable is a 220-240mm dual ended 20P (2x10) microfit cable. The con
 | 26AWG Wire      | 28 |   |    |  |
 
 MicroFit connectors support two different ranges of conductor thickness using different wire crimp ferrules. I recommend that you realize the stepper motor and heater wires with 20AWG wire (0.5mm²) and the remaining wires in 26AWG wire (0.14mm²) to save on weight and accelerated mass.
+
+## Hints and Remarks
+### Extruder Stepper Direction
+The umbilical cable reverses the stepper rotation direction. I.e. you need to invert the DIR pin of the extruder motor in your printer.cfg file.
+
+    [extruder]
+    ....
+    dir_pin: PB4 # Add ! (or remove ! if already there) before 'PB4'
+    ....
+
+### Mounting the Toolhead PCB
+The umbilical toolhead PCB uses heat stake inserts in order to mount it to the motor screws. In some cases (i.e. LDO motors), the extruder motor already has an additional thread, which has to be either removed by drilling the motor holes with a 3mm spiral drill. If you do not want to drill into the motor, you can use M3x10 captive screws, which are unfortunately hard to find. These screws have a narrowed section and a short thread at the tip so they only 'grab' the thread of the heat stake inserts.
+
+### Additional chamber thermistor on SKR mini V2.0
+If you are using the SKR mini V2.0 board and you want to connect the chamber thermistor, you can use Timmit99's expansion board (https://github.com/VoronDesign/Voron-Hardware/tree/master/SKR-Mini_TFT_Thermistor_Board). 
+
+If you want an easier and faster solution, you can move the Z-STOP endswitch pin and connect it the E0-STOP pin using a simple self-made JST 2-pin to 3-pin adapter (See Photos folder) or by removing the crimp pins from the 2-pin JST and insert them into the housing of a 3-pin JST header. Once the Z-STOP pin is freed up, you can use it for your thermistor. This method needs the following printer.cfg changes:
+
+    [stepper_z]
+    ...
+    endstop_pin: ^PC15 # Conversion for additional thermistor (use E0-STOP for Z-STOP)
+    ...
+    
+    [temperature_sensor chamber]
+    sensor_type: Generic 3950
+    sensor_pin: PC2
+    gcode_id: C
+    pullup_resistor: 10000
+
+### Connecting the ADXL345 to a Raspberry Pi
+The ADXL345 circuit on the toolhead PCB includes a R-C filter and a 3.3V low-dropout regulator to deliver a clean power supply. Thus you can use the official drawings shown in the corresponding docs (https://www.klipper3d.org/Measuring_Resonances.html), with one small change. You need to connect VCC to +5V (Pin 2 or Pin 4) instead of 3.3V (Pin 1) on the Raspberry Pi extension header (See Photos folder). Then follow the official docs for setting the resonance measurement up.
