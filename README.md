@@ -53,8 +53,8 @@ The Umbilical cable is a 220-240mm dual ended 20P (2x10) microfit cable. The con
 | 20 Pin Plug     | 2  | Molex 430252000 | C485324   | https://lcsc.com/product-detail/Connectors-Housings_MOLEX-430252000_C485324.html |
 | Crimps 20 AWG   | 12 | Molex 430300001/430300007 | C259786   | https://lcsc.com/product-detail/Line-Pressing-Terminals_MOLEX-430300001_C259786.html |
 | Crimps 26 AWG   | 28 | Molex 430300004/430300010 | C259765   | https://lcsc.com/product-detail/Line-Pressing-Terminals_MOLEX-430300004_C259765.html |
-| 20AWG Wire      | 12 | 220mm Sections  |    | PTFE/Silicone/Hefulon for motion rated, PVC *could* work since it isn't constraind to a cable chain |
-| 26AWG Wire      | 28 |   |    |  |
+| 20AWG Wire      | 6  | 220mm Sections  |    | PTFE/Silicone/Hefulon for motion rated, PVC *could* work since it isn't constraind to a cable chain |
+| 26AWG Wire      | 14 |   |    |  |
 
 MicroFit connectors support two different ranges of conductor thickness using different wire crimp ferrules. I recommend that you realize the stepper motor and heater wires with 20AWG wire (0.5mm²) and the remaining wires in 26AWG wire (0.14mm²) to save on weight and accelerated mass.
 
