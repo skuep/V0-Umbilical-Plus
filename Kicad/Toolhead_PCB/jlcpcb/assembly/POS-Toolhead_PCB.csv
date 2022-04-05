@@ -1,0 +1,18 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,4.7u/16V/X5R,C_0603_1608Metric,105.588,-85.522,-90.0,bottom
+C2,10n/NP0,C_0603_1608Metric,102.032,-88.062,0.0,bottom
+C3,4.7u/16V/X5R,C_0603_1608Metric,102.032,-82.982,0.0,bottom
+C4,10n/NP0,C_0603_1608Metric,94.158,-83.998,0.0,bottom
+J1,Conn_02x10_Top_Bottom,Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal,86.5,-91.872,0.0,top
+J2,Motor,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,103.77,-107.586,180.0,top
+J3,Hotend Fan,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,105.675,-99.966,180.0,top
+J4,Part Cooling Fan,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,87.935,-107.586,180.0,top
+J5,Heater,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,114.605,-99.966,180.0,top
+J6,Thermistor,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,87.935,-99.966,180.0,top
+J7,X-Endstop,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,96.825,-99.966,180.0,top
+J8,Part Cooling Fan,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,114.605,-107.586,180.0,top
+R1,10R,R_0603_1608Metric,107.366,-85.522,90.0,bottom
+R2,10K,R_0603_1608Metric,97.46,-83.998,180.0,bottom
+R3,10R,R_0603_1608Metric,91.618,-89.84,0.0,bottom
+U1,ADXL345BCCZ,LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y,95.428,-87.046,-90.0,bottom
+U2,LP2985-33DBVR,SOT-23-5,102.032,-85.522,180.0,bottom
